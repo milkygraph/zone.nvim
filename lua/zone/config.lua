@@ -1,7 +1,7 @@
 local default_opts = {
     style = "treadmill",
     customcmd = "",
-    after = 30,
+    after = 30, -- This is absolute with the removel of timer
     offset = 3, -- The column offset for the fake float to open.
 
     -- TODO: Config options for other styles and exclude filetypes
